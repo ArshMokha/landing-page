@@ -1,3 +1,51 @@
 body {
   font-family: "Roboto", serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body div {
+  padding: 0 250px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 700;
+}
+
+.navigation {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header, .footer {
+  background-color: #1F2937;
+  color: white;
+}
+
+.hero-section {
+  background-color: lightblue;
+}
+
+.content-section {
+  background-color: lightpink;
+}
+
+.quote-container {
+  background-color: lightgreen;
+}
+
+.call-to-action-container {
+  background-color: lightsalmon;
 }
