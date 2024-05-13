@@ -19,7 +19,7 @@ body {
 .top-content, 
 .content-section, 
 .quote-container, 
-.call-to-action-container {
+.call-to-action {
   width: 64%;
   margin: 0 auto;
 }
@@ -29,7 +29,7 @@ body {
 .top-content {
   display: flex;
   flex-flow: column;
-  padding-bottom: 128px;
+  padding-bottom: 8rem;
 }
 
 /* Header */
@@ -38,19 +38,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 56px;
+  padding-bottom: 3.5rem;
 }
 
 .header-logo {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 .navigation {
   display: flex;
-  gap: 16px;
+  gap: 1rem;
   list-style-type: none;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #e5e7ebd1;
 }
 
@@ -66,25 +66,25 @@ body {
 
 .hero-left > h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
 }
 
 .hero-left > p {
   margin: 0;
-  padding-right: 16px;
-  padding-bottom: 12px;
-  font-size: 18px;
+  padding-right: 1rem;
+  padding-bottom: 0.75rem;
+  font-size: 1.125rem;
   color: #e5e7ebd1;
 }
 
-.hero-left > button {
+button {
   background-color: #3882F6;
-  padding: 8px 32px;
-  border: none 8px;
-  border-radius: 8px;
+  padding: 0.5rem 2rem;
+  border: none 0.5rem;
+  border-radius: 0.5rem;
   color: inherit;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
 }
 
@@ -95,17 +95,17 @@ body {
   align-items: center;
   background-color: #6D747D;
   color: #E5E7EB;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 /* Content */
 
 .content-section {
-  padding-bottom: 106px;
+  padding-bottom: 6.5rem;
 }
 
 .content-section > h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 900;
   color: #1f2937;
   text-align: center;
@@ -114,7 +114,7 @@ body {
 .img-container {
   display: flex;
   justify-content: center;
-  gap: 48px;
+  gap: 3rem;
 }
 
 .img-box {
@@ -138,33 +138,63 @@ body {
 /* Quote */
 
 .quote-container {
-  padding: 104px 0 72px 0;
-  width: 792px;
+  padding: 6.5rem 0 4.5rem 0;
+  width: 52%;
   font-family: inherit;
 }
 
 .quote {
   margin: 0;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: italic;
   font-weight: 300;
   color: #1f2937;
 }
 
 .author {
-  margin: 0 48px 0 0;
-  font-size: 20px;
+  margin: 0 3rem 0 0;
+  font-size: 1.25rem;
   font-weight: 900;
   color: #1f2937;
   text-align: right;
 }
 
-/*CALL TO ACTION CONTAINER */
+/* Call-to-Action */
 
-.header, .footer {
+.call-to-action {
+  background-color: #3882f6;
+  margin: 5.5rem auto;
+  padding: 3rem 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right-action > button {
+  border: 2px solid white;
+}
+
+.left-action > p {
+  margin: 0;
+  font-weight: 300;
+  color:#E5E7EB;
+}
+
+.left-action > .bold {
+  font-size: 18px;
+  font-weight: 700;
   color: white;
 }
 
-.call-to-action-container {
-  background-color: lightsalmon;
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > p {
+  padding: 1rem 0;
 }
