@@ -16,7 +16,10 @@ body {
   background-color: #E5E7EB;
 }
 
-.top-content, .content-section, .quote-container, .call-to-action-container {
+.top-content, 
+.content-section, 
+.quote-container, 
+.call-to-action-container {
   width: 64%;
   margin: 0 auto;
 }
@@ -86,50 +89,49 @@ body {
 }
 
 .hero-right {
-  display: flex;
-  background-color: #6D747D;
   flex: 1;
+  display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #6D747D;
   color: #E5E7EB;
   font-size: 18px;
 }
 
-/*HERO SECTION END*/
-
-/*CONTENT SECTION START */
+/* Content */
 
 .content-section > h2 {
-  text-align: center;
   font-size: 36px;
   font-weight: 900;
-  color: #1F2937;
+  color: #1f2937;
+  text-align: center;
 }
 
-.image-container {
+.img-container {
   display: flex;
-  gap: 8px;
-  justify-content: space-evenly;
-  margin-bottom: 120px;
+  justify-content: center;
+  gap: 48px;
 }
 
-.image-container img {
-  height: 175px;
-  width: 175px;
+.img-box {
+  width: 152px;
+}
+
+.img-box > img {
+  height: 152px;
+  width: 152px;
   border: 4px solid #3882F6;
   border-radius: 16px;
 }
 
-.img-box p {
-  width: 175px;
+.img-box > p {
+  width: 152px;
   margin: 0;
   text-align: center;
   color: #595b5f;
 }
 
-/*CONTENT SECTION END*/
-
-/*QUOTE CONTAINER */
+/* Quote */
 
 .quote-container {
   display: flex;
