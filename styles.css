@@ -1,19 +1,29 @@
 body {
   font-family: "Roboto", serif;
   margin: 0;
-  display: flex;
-  flex-direction: column;
 }
 
-body > div {
-  padding: 0 250px;
+.blue-background {
+  background-color: #1F2937;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.grey-background {
+  background-color: #E5E7EB;
+}
+
+.top-content, .content-section, .quote-container, .call-to-action-container {
+  width: 64%;
+  margin: 0 auto;
 }
 
 /*HEADER*/
 
 .header {
   display: flex;
-  background-color: #1F2937;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 60px
@@ -39,8 +49,8 @@ body > div {
 
 .hero-section {
   display: flex;
-  background-color: #1F2937;
   padding-bottom: 125px;
+  padding-top: 32px;
 }
 
 .hero-left {
@@ -50,6 +60,7 @@ body > div {
 }
 
 .hero-left h1 {
+  margin-top: 0;
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
@@ -60,6 +71,7 @@ body > div {
   margin-top: 0;
   font-size: 18px;
   color: #E5E7EB;
+  width: 90%;
 }
 
 .hero-left-button-container button {
@@ -78,16 +90,13 @@ body > div {
   flex: 1;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 /*HERO SECTION END*/
 
 /*CONTENT SECTION START */
-
-.content-section {
-  background-color: white;
-}
 
 .content-section > h2 {
   text-align: center;
@@ -117,26 +126,46 @@ body > div {
   color: #595b5f;
 }
 
+/*CONTENT SECTION END*/
 
+/*QUOTE CONTAINER */
 
+.quote-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 300;
+  padding-top: 80px;
+  padding-right: 110px;
+  padding-left: 110px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 
+.author {
+  font-style: normal;
+  color: #1F2937;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 80px;
+  padding-right: 160px;
+}
 
+/*QUOTE CONTAINER END */
 
-
-
-
-
-
-
-
+/*CALL TO ACTION CONTAINER */
 
 .header, .footer {
   color: white;
-}
-
-.quote-container {
-  background-color: lightgreen;
 }
 
 .call-to-action-container {
